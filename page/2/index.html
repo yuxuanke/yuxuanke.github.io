@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion">
+<html class="theme-next mist use-motion">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -29,7 +29,7 @@
 
   
   
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
 
 
@@ -63,7 +63,7 @@
 
 
 
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
 
 <link href="/css/main.css?v=5.0.2" rel="stylesheet" type="text/css" />
 
@@ -99,8 +99,8 @@
 <script type="text/javascript" id="hexo.configuration">
   var NexT = window.NexT || {};
   var CONFIG = {
-    scheme: 'Muse',
-    sidebar: {"position":"left","display":"post"},
+    scheme: 'Mist',
+    sidebar: {"position":"right","display":"post"},
     fancybox: true,
     motion: true,
     duoshuo: {
@@ -137,7 +137,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
+  <div class="container one-collumn sidebar-position-right 
    page-home 
  ">
     <div class="headband"></div>
@@ -174,7 +174,19 @@
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
             首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
           </a>
         </li>
       
@@ -182,7 +194,19 @@
         <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
             
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
             归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
           </a>
         </li>
       
@@ -190,15 +214,9 @@
         <li class="menu-item menu-item-tags">
           <a href="/tags" rel="section">
             
-            标签
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-schedule">
-          <a href="/schedule" rel="section">
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
-            日程
+            标签
           </a>
         </li>
       
@@ -302,18 +320,19 @@
       
         
           
-            <p>Curt，不知道路上同行的人会有多少，也许只有一人独行，也许会有三人陪行，也许会有一帮子人同行。</p>
-<p>但这没关系。</p>
-<blockquote>
-<h4 id="人们不因你所做的而买单，他们会因你所做的理由而买单，你的行动就证明了你的信念。"><a href="#人们不因你所做的而买单，他们会因你所做的理由而买单，你的行动就证明了你的信念。" class="headerlink" title="人们不因你所做的而买单，他们会因你所做的理由而买单，你的行动就证明了你的信念。"></a>人们不因你所做的而买单，他们会因你所做的理由而买单，你的行动就证明了你的信念。</h4></blockquote>
-<p>现在，就是以身作则，用自己的行动，把情怀付诸于现实。</p>
-<p>前期，curt会凭借在生活中、阅读中、交流中，看到想到的现象、事件、观点，进行自己的思考、整理、表达，最终形成内容呈现在共享的Blog网站（yy920.cn）。</p>
-<p>当然，curt始终不会放弃，在同行的路上，寻觅发展“志同道合”之人，让共享的Blog网站的内容，多样化、丰富化。</p>
-<p>初步设想的模式是：此网站是基于Markdown语言的写作方式（Hexo是开源式架构），作为生产者，只需将内容采用Markdown语言编辑，内容质量审核通过，即可及时上传至网站。</p>
-<p>至于详细的操作模式，期待小伙伴加入，共同天马行空。</p>
-<hr>
+          Curt，不知道路上同行的人会有多少，也许只有一人独行，也许会有三人陪行，也许会有一帮子人同行。
+但这没关系。
 
-          
+人们不因你所做的而买单，他们会因你所做的理由而买单，你的行动就证明了你的信念。
+现在，就是以身作则，用自己的行动，把情怀付诸于现实。
+前期，curt会凭借在生活中、阅读中、交流中，看到想
+          ...
+
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/09/20/what/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
       
     </div>
@@ -422,16 +441,16 @@
       
         
           
-            <h4 id="写作是一个人思考、整理、表达的全过程，阅读和交流仅仅是收集信息、片段感悟的过程。"><a href="#写作是一个人思考、整理、表达的全过程，阅读和交流仅仅是收集信息、片段感悟的过程。" class="headerlink" title="写作是一个人思考、整理、表达的全过程，阅读和交流仅仅是收集信息、片段感悟的过程。"></a>写作是一个人思考、整理、表达的全过程，阅读和交流仅仅是收集信息、片段感悟的过程。</h4><p>作为内容的生产者，按比例来说，甚至不到5%。</p>
-<p>这几年流行的微信公众号，13亿人口基数，7亿微信用户使用量，已有1000万个公众微信号，假定这些公众微信号均是内容生产者，其1/70的比例也不足1.5%。</p>
-<p>由于公众微信号的商业模式渐起，吸引了众多投机者，只有很少一部分是真正的内容生产者，当然这些优质的生产者，创造了很多优质的内容。</p>
-<p>在便捷功能多样的手机端，深度阅读优质内容，并加以思考吸收，我相信，这本身就是一个难两全的事。</p>
-<p>曾经有一个运营公众号的朋友向我抱怨，在公众号发一些有深度的干货（通常字数超过1500），阅读量上不去；发一些无关痛痒的水货，阅读量反而上去了，似乎大部分人就是饭后茶余，快餐式的消遣。</p>
-<p>Curt对这位朋友说：“那你能不能把干货分成若干个小干货，逐步逐步呈现给用户？”朋友无奈的回答，这样缺乏系统性的呈现，对表达观点不利，也许提高了阅读量，却流失了真正关注内容的读者。</p>
-<p>面对年轻人这个快节奏的生活方式，curt感到任重而道远，现实给理想来了一个活生生的巴掌，注定，curt所做的事情只能影响一小撮，甚至10个人不到。</p>
-<h4 id="明确受众群体是极为小众的“同道中人”后，curt先搁置了微信公众号手机移动端这个想法，着手搭建共享的Blog网站，就算一个人唱戏，也要先把平台搭起来。"><a href="#明确受众群体是极为小众的“同道中人”后，curt先搁置了微信公众号手机移动端这个想法，着手搭建共享的Blog网站，就算一个人唱戏，也要先把平台搭起来。" class="headerlink" title="明确受众群体是极为小众的“同道中人”后，curt先搁置了微信公众号手机移动端这个想法，着手搭建共享的Blog网站，就算一个人唱戏，也要先把平台搭起来。"></a>明确受众群体是极为小众的“同道中人”后，curt先搁置了微信公众号手机移动端这个想法，着手搭建共享的Blog网站，就算一个人唱戏，也要先把平台搭起来。</h4><h4 id="共享的Blog网站，主要是针对乐于思考、乐于写作、乐于分享的同行者，同时将内容分享给同一代人，去唤醒更多人去思考。"><a href="#共享的Blog网站，主要是针对乐于思考、乐于写作、乐于分享的同行者，同时将内容分享给同一代人，去唤醒更多人去思考。" class="headerlink" title="共享的Blog网站，主要是针对乐于思考、乐于写作、乐于分享的同行者，同时将内容分享给同一代人，去唤醒更多人去思考。"></a>共享的Blog网站，主要是针对乐于思考、乐于写作、乐于分享的同行者，同时将内容分享给同一代人，去唤醒更多人去思考。</h4><hr>
+          写作是一个人思考、整理、表达的全过程，阅读和交流仅仅是收集信息、片段感悟的过程。作为内容的生产者，按比例来说，甚至不到5%。
+这几年流行的微信公众号，13亿人口基数，7亿微信用户使用量，已有1000万个公众微信号，假定这些公众微信号均是内容生产者，其1/70的比例也不足1.5%。
+由于公众微信号的商
+          ...
 
-          
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/09/20/how/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
       
     </div>
@@ -540,15 +559,16 @@
       
         
           
-            <p><img src="http://of57n24id.bkt.clouddn.com/%E4%B8%80%E5%BC%A0%E6%A1%8C%E5%AD%90%E6%94%AF%E7%AC%94.jpg" alt="书"><br>在这个喧杂的移动端时代，一张书桌、一本日记本、一支笔、一杯咖啡，已经离我们的生活渐行渐远。</p>
-<p>年轻人很难静下心来阅读一本书，记录一篇带有深度的日记，似乎大家在接受爆炸式信息的同时，忘记了思考。</p>
-<p>Curt本人，作为13届毕业的90后，在很长一段时间，被移动端生活方式变革的洪流中，迷失了生活中本应保留的那份学习和思考，成为了那60%被收割的“韭菜”。</p>
-<p>学生党、工作狗、中层leader，白天忙于学习专业知识、朝九晚五、出差拜访、工作业务、人事斗争，晚上疲于吃喝玩乐、加班开会、照顾家庭。</p>
-<p>唯有空闲，手机消遣、吸收信息、阅读分享，试问，你的思考的时间在哪里，难道都是拿来主义、人云亦云、跟风仿效吗？</p>
-<h4 id="用我们思考的内容，去唤醒更多人去思考。"><a href="#用我们思考的内容，去唤醒更多人去思考。" class="headerlink" title="用我们思考的内容，去唤醒更多人去思考。"></a>用我们思考的内容，去唤醒更多人去思考。</h4><p>对，这就是curt想做的，这就是一个理想主义者的情怀。</p>
-<hr>
+          在这个喧杂的移动端时代，一张书桌、一本日记本、一支笔、一杯咖啡，已经离我们的生活渐行渐远。
+年轻人很难静下心来阅读一本书，记录一篇带有深度的日记，似乎大家在接受爆炸式信息的同时，忘记了思考。
+Curt本人，作为13届毕业的90后，在很长一段时间，被移动端生活方式变革的洪流中，迷失了生活中本应保留的那
+          ...
 
-          
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/09/20/why/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
       
     </div>
@@ -657,15 +677,18 @@
       
         
           
-            <p>YY920|SPACE，不得不承认，TA就是一个Blog网站。</p>
-<p><img src="http://of57n24id.bkt.clouddn.com/YY920%7CSPACE%EF%BC%88%E7%BD%91%E9%A1%B5%E7%89%88%EF%BC%89.jpg" alt="logo网页版"></p>
-<h4 id="TA却不甘心只做个人的Blog，TA有一个情怀，成为一个90后的Blog共享网站。"><a href="#TA却不甘心只做个人的Blog，TA有一个情怀，成为一个90后的Blog共享网站。" class="headerlink" title="TA却不甘心只做个人的Blog，TA有一个情怀，成为一个90后的Blog共享网站。"></a>TA却不甘心只做个人的Blog，TA有一个情怀，成为一个90后的Blog共享网站。</h4><p>通过Hexo搭建快速、简洁且高效的博客框架，托管于GitHub，打造极简主义的静态网页（网站）。</p>
-<p>yy920.cn 作为TA的域名网址。</p>
-<p>这是一个简单到，专注于阅读的space。        </p>
-<p>这是一个安静到，专注于思考的space。</p>
-<hr>
+          YY920|SPACE，不得不承认，TA就是一个Blog网站。
 
-          
+TA却不甘心只做个人的Blog，TA有一个情怀，成为一个90后的Blog共享网站。通过Hexo搭建快速、简洁且高效的博客框架，托管于GitHub，打造极简主义的静态网页（网站）。
+yy920.cn 作为TA的域名网址。
+这是一个简单到
+          ...
+
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/09/20/关于YY920/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
       
     </div>
@@ -744,10 +767,10 @@
 
           
             <div class="site-state-item site-state-categories">
-              
+              <a href="/categories">
                 <span class="site-state-item-count">7</span>
                 <span class="site-state-item-name">分类</span>
-              
+              </a>
             </div>
           
 
@@ -805,7 +828,7 @@
 <div class="theme-info">
   主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Muse
+    NexT.Mist
   </a>
 </div>
 
@@ -841,22 +864,22 @@
 
 
   
-  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
 
   
-  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
 
   
-  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
 
   
-  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
 
   
-  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
 
   
-  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 
 
   
@@ -901,7 +924,7 @@
 
   
     
-    <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
+    <script src="/vendors/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
     <script src="/js/src/hook-duoshuo.js"></script>
   
 
